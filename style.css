@@ -1,0 +1,59 @@
+*{
+    margin:0;
+}
+
+body{
+    background-image: url("todo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+
+h1{
+    margin-bottom: 20px;
+    color:white;
+}
+
+.grid-container{
+
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    row-gap: 15px;
+    margin-top: 20px;
+
+}
+
+.display{
+    font-size: 18px;
+    padding: 5px 5px;
+    
+}
+
+.btn-delete{
+    padding: 15px 10px;
+    background-color: brown;
+    color:white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-add{
+    padding: 15px 10px;
+    background-color: rgba(2, 121, 2, 0.858);
+    color:white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
