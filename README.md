@@ -2,7 +2,7 @@
 
 This is a simple ToDo application built with JavaScript, HTML, and CSS. It allows users to add tasks with specific dates, track them, and delete completed tasks.<br>
 
-Features<br>
+<b>Features</b><br>
 Add Tasks: Users can add tasks with a specified due date.<br>
 Task Management: Tasks are displayed with their respective dates.<br>
 Mark and Delete Tasks: Once a task is completed, users can delete it from the list.<br>
